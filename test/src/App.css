@@ -1,0 +1,66 @@
+body{
+  background-color: darkslategray;
+  color: white;
+}
+
+.App h1{
+  width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+  box-shadow: 1px 5px 20px 1px black;
+}
+
+.row{
+  width: 500px;
+  margin: 0 auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-control{
+  width: 330px;
+  padding: 12px;
+  font-weight: bold;
+  border: none;
+  outline: none;
+}
+
+.btn-create{
+  width: 130px;
+  padding: 13px;
+  background-color: yellow;
+  font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+
+.box{
+  width: 450px;
+  margin: 0 auto;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.items{
+  width: auto;
+  list-style: none;
+  font-size: 20px;
+  color: yellow;
+  padding: 10px;
+}
+
+.btnDelete{
+  margin-left: 5px;
+  background-color: red;
+  border: none;
+  padding: 10px;
+}
+
+.btnEdit{
+  margin-left: 5px;
+  background-color: red;
+  border: none;
+  padding: 10px;
+}
